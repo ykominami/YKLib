@@ -14,6 +14,8 @@ import { Condition } from "./condition"
 import { Sheetx } from "./sheetx"
 import { Util } from "./util"
 import { XSheet } from './xsheet';
+import { Infox } from './infox';
+import { Dayx } from './dyax';
 
 declare const global: {
   [x: string]: unknown;
@@ -23,3 +25,4 @@ global.Condition = Condition;
 global.Sheetx = Sheetx;
 global.Util = Util;
 global.XSheet = XSheet;
+global.Infox = Infox;
